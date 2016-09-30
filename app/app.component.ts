@@ -4,7 +4,8 @@ import {NavbarComponent} from './navbar/navbar.component';
 
 @Component({
   selector: 'my-app',
-  template: '<navbar></navbar>'
+  template: `<navbar></navbar> <jumbotron></jumbotron>
+  <div class='container'><home></home></div>`
 })
 
 export class AppComponent { }

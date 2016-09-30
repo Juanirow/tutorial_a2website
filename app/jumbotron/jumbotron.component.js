@@ -9,17 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var JumbotronComponent = (function () {
+    function JumbotronComponent() {
+        this.jbtHeading = "Hello World";
+        this.text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n             Error, sunt consequuntur consectetur velit id voluptatem qui,\n              esse? Ex hic magnam, suscipit, delectus quibusdam ducimus quia reiciendis, vitae autem quisquam cupiditate.\"";
+        this.btnText = 'Read More!';
+        this.btnUrl = 'http://test.com';
     }
-    AppComponent = __decorate([
+    JumbotronComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<navbar></navbar> <jumbotron></jumbotron>\n  <div class='container'><home></home></div>"
+            moduleId: module.id,
+            selector: 'jumbotron',
+            templateUrl: 'jumbotron.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], JumbotronComponent);
+    return JumbotronComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.JumbotronComponent = JumbotronComponent;
+//# sourceMappingURL=jumbotron.component.js.map
