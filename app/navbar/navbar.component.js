@@ -17,7 +17,7 @@ var NavbarComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'navbar',
-            templateUrl: 'navbar.component.html'
+            templateUrl: 'navbar.component.html',
         }), 
         __metadata('design:paramtypes', [])
     ], NavbarComponent);
